@@ -1,0 +1,41 @@
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+__pycache__/
+*.sqlite3
+
+# Environments
+.env
+venv/
+.env*
+
+# IDEs
+.vscode/
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/
+
+# Static files
+staticfiles/
+media/
+
+# Local database
+db.sqlite3
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Backup files
+*.bak
+*.swp
+
+*.pyc
+__pycache__/
